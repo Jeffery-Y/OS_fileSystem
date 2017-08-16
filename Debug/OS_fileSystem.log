@@ -1,0 +1,65 @@
+﻿生成启动时间为 2017/7/20 22:49:41。
+     1>项目“F:\OS课设\OS_fileSystem\OS_fileSystem\OS_fileSystem.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt command.cpp copy_paste.cpp create_delete_dir.cpp create_delete_file.cpp dir.cpp exit.cpp format.cpp freeblock.cpp init.cpp main.cpp read_write.cpp user.cpp
+         user.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\user.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\user.cpp(80): warning C4018: “<”: 有符号/无符号不匹配
+         read_write.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\read_write.cpp(9): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\read_write.cpp(107): warning C4154: 删除数组表达式；转换到提供的指针
+         main.cpp
+         init.cpp
+         freeblock.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\freeblock.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+         format.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\format.cpp(5): warning C4018: “<”: 有符号/无符号不匹配
+         exit.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\exit.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+         dir.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\dir.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\dir.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\dir.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\dir.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+         create_delete_file.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\create_delete_file.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\create_delete_file.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\create_delete_file.cpp(159): warning C4018: “<”: 有符号/无符号不匹配
+         create_delete_dir.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\create_delete_dir.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+         copy_paste.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(6): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(80): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
+         command.cpp
+     1>f:\os课设\os_filesystem\os_filesystem\command.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\command.cpp(374): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\command.cpp(492): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\command.cpp(499): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\os课设\os_filesystem\os_filesystem\command.cpp(547): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(45): warning C4715: “cutContext”: 不是所有的控件路径都返回值
+     1>f:\os课设\os_filesystem\os_filesystem\copy_paste.cpp(118): warning C4715: “pasteContext”: 不是所有的控件路径都返回值
+     1>f:\os课设\os_filesystem\os_filesystem\create_delete_dir.cpp(76): warning C4715: “deleteDir”: 不是所有的控件路径都返回值
+     1>f:\os课设\os_filesystem\os_filesystem\read_write.cpp(236): warning C4715: “writeFile”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OS课设\OS_fileSystem\Debug\OS_fileSystem.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\OS课设\OS_fileSystem\Debug\OS_fileSystem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OS课设\OS_fileSystem\Debug\OS_fileSystem.lib" /MACHINE:X86 Debug\command.obj
+         Debug\copy_paste.obj
+         Debug\create_delete_dir.obj
+         Debug\create_delete_file.obj
+         Debug\dir.obj
+         Debug\exit.obj
+         Debug\format.obj
+         Debug\freeblock.obj
+         Debug\init.obj
+         Debug\main.obj
+         Debug\read_write.obj
+         Debug\user.obj
+         OS_fileSystem.vcxproj -> F:\OS课设\OS_fileSystem\Debug\OS_fileSystem.exe
+     1>已完成生成项目“F:\OS课设\OS_fileSystem\OS_fileSystem\OS_fileSystem.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:37.96
